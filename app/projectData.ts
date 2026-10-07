@@ -67,7 +67,7 @@ const projects: ProjectDetailData[] = [
     summary: "A compact styling layer for retailers that converts a shopper's intent into products, outfits and a ranked recommendation.",
     approachTitle: "Designed to fit existing stores", approach: "The pipeline separated intent understanding, catalog retrieval, outfit composition and ranking so the same engine could sit behind different storefront experiences.",
     outcomeTitle: "Working integrations in roughly five hours", outcome: "The SDK was integrated into two storefront concepts during the hack, proving the same styling logic could adapt without rebuilding the shopping interface.",
-    externalUrl: "https://github.com/Rakulck", images: fashionImages,
+    externalUrl: "https://github.com/Rakulck", images: fashionImages, logo: "/founderinc.jpg",
   },
   {
     slug: "yc-voice-agent", name: "YC Voice Agent", meta: "On-device AI / Voice / Healthcare", year: "2026", index: "P2",
@@ -75,7 +75,7 @@ const projects: ProjectDetailData[] = [
     summary: "A voice-first care assistant designed to handle common patient workflows locally, then escalate when human judgment is required.",
     approachTitle: "Useful before it is impressive", approach: "I connected on-device Gemma, speech input, appointment booking, escalation and visit summarization across a React Native app, Node service and web dashboard.",
     outcomeTitle: "A complete workflow in 20 hours", outcome: "The prototype demonstrated a private path from spoken request to action, with clear boundaries for uncertainty and human handoff.",
-    externalUrl: "https://github.com/Rakulck", images: soundImages,
+    externalUrl: "https://github.com/Rakulck", images: soundImages, logo: "/yc.webp",
   },
   {
     slug: "e-mess", name: "E-Mess", meta: "PWA / Operations / Product Design", year: "2023", index: "P3",
@@ -91,7 +91,7 @@ const projects: ProjectDetailData[] = [
     summary: "A structured audit workflow that turns a large frontend repository into a prioritized, evidence-backed plan instead of a generic checklist.",
     approachTitle: "Every recommendation needs proof", approach: "Findings are organized by priority, evidence, effort, confidence, fix and expected gain so teams can separate architectural risk from cosmetic preference.",
     outcomeTitle: "A reusable engineering lens", outcome: "The system creates a shared language for evaluating performance, maintainability, accessibility and product risk across unfamiliar codebases.",
-    externalUrl: "https://github.com/Rakulck", images: systemImages,
+    externalUrl: "https://github.com/Rakulck", images: systemImages, logo: "/claude.webp",
   },
 ];
 

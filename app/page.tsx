@@ -175,13 +175,11 @@ export default function Home() {
                       >
                         <span className="project-card__inner">
                           <span className={`project-card__visual${project.logo ? ` project-card__visual--logo project-card__visual--${project.slug}` : ""}`} aria-hidden="true">
-                            <span className="project-card__visual-index">{project.index}</span>
                             {project.logo ? (
                               <img className={`project-card__logo project-card__logo--${project.slug}`} src={project.logo} alt="" />
                             ) : (
                               <span className="project-card__visual-name">{project.name}</span>
                             )}
-                            <span className="project-card__visual-mark">+</span>
                           </span>
                           <span className="project-card__info">
                             <strong>{project.name}</strong>

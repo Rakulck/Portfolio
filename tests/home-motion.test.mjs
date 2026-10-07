@@ -37,3 +37,12 @@ test("uses the supplied IBM and BookMyDoc artwork", () => {
   assert.match(projectData, /slug: "bookmydoc"[\s\S]*?logo: "\/bookmydoc-logo\.png"/);
   assert.match(css, /\.project-card__logo--ibm, \.project-card__logo--bookmydoc/);
 });
+
+test("uses the supplied Founders Inc, YC, and Claude artwork", () => {
+  assert.match(projectData, /slug: "founders-inc-stylist-sdk"[\s\S]*?logo: "\/founderinc\.jpg"/);
+  assert.match(projectData, /slug: "yc-voice-agent"[\s\S]*?logo: "\/yc\.webp"/);
+  assert.match(projectData, /slug: "frontend-claude-skill"[\s\S]*?logo: "\/claude\.webp"/);
+  assert.match(css, /\.project-card__logo--founders-inc-stylist-sdk/);
+  assert.match(css, /\.project-card__logo--yc-voice-agent/);
+  assert.match(css, /\.project-card__logo--frontend-claude-skill/);
+});

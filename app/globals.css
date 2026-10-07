@@ -110,11 +110,15 @@ button { color: inherit; font: inherit; }
 .project-card__visual::after { position: absolute; top: -20%; bottom: -20%; left: 48%; width: 1px; background: rgba(10,10,10,.24); content: ""; transform: rotate(var(--line-rotation)); }
 .project-card__visual--logo { background: #fff; }
 .project-card__visual--logo::before, .project-card__visual--logo::after { display: none; }
-.project-card__visual--verso-ai { background: #000; }
+.project-card__visual--verso-ai, .project-card__visual--founders-inc-stylist-sdk { background: #000; }
+.project-card__visual--yc-voice-agent { background: #fb651e; }
 .project-card__logo { position: absolute; top: 50%; left: 50%; width: 70%; max-height: 66%; object-fit: contain; transform: translate(-50%,-50%); }
 .project-card__logo--slidez { width: 76%; max-height: 76%; }
 .project-card__logo--verso-ai { width: 100%; max-height: 100%; }
 .project-card__logo--ibm, .project-card__logo--bookmydoc { width: 100%; height: 100%; max-height: 100%; object-fit: cover; }
+.project-card__logo--founders-inc-stylist-sdk { width: 84%; max-height: 72%; object-fit: contain; }
+.project-card__logo--yc-voice-agent { width: 100%; height: 100%; max-height: 100%; object-fit: cover; }
+.project-card__logo--frontend-claude-skill { width: auto; max-height: 56%; aspect-ratio: 1; object-fit: contain; }
 .project-card__visual--logo .project-card__visual-mark { top: auto; right: 1rem; bottom: 1rem; left: auto; transform: none; }
 .project-card__visual-index { position: absolute; z-index: 2; top: 1rem; left: 1rem; font-size: .62rem; letter-spacing: .08em; }
 .project-card__visual-name { position: absolute; z-index: 2; right: -.03em; bottom: -.08em; left: -.03em; overflow-wrap: anywhere; font-size: clamp(3.2rem,7.3vw,7rem); letter-spacing: -.09em; line-height: .66; text-transform: uppercase; }
