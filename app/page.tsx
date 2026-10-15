@@ -122,11 +122,12 @@ export default function Home() {
             I build AI products from first sketch to real users—combining product thinking,
             full-stack engineering and a slightly unreasonable eye for detail.
           </p>
-          <a className="hero__scroll" href="#showreel" aria-label="Scroll to showreel">
+          <a className="hero__scroll" href="#projects" aria-label="Scroll to projects">
             <span aria-hidden="true">↓</span>
           </a>
         </section>
 
+        {/* Showreel section hidden
         <section className="showreel" id="showreel" aria-label="Portfolio showreel">
           <div className="showreel__sticky">
             <div className="showreel__label">Showreel / 2026</div>
@@ -141,6 +142,7 @@ export default function Home() {
             <p className="showreel__caption">Zero-to-one products for style, sound, memory and the messy parts in between.</p>
           </div>
         </section>
+        */}
 
         <section className={`projects${projectsVisible ? " projects--visible" : ""}`} id="projects" aria-label="Work and projects">
           <div className="projects-switcher-shell">
