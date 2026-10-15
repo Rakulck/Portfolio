@@ -22,7 +22,7 @@ const systemImages = ["/project-visual-system.png", "/project-visual-fashion.png
 
 const projects: ProjectDetailData[] = [
   {
-    slug: "slidez", name: "Slidez", meta: "AI Stylist / Virtual Try-On / Consumer AI", year: "2026", index: "01",
+    slug: "slidez", name: "Slidez", meta: "Styling Intelligence Layer for Fashion Commerce", year: "2026", index: "01",
     statement: "From a prompt to a complete, shoppable look.", role: "Founder / Product / Engineering",
     summary: "Slidez is an AI stylist that turns intent into coordinated outfits, explains why they work, and lets people try the result before they shop.",
     approachTitle: "Style is in the combination", approach: "I designed the product around the full decision: understand the occasion, retrieve real products, compose a look, rank the outfit as a whole, and make the result easy to try and share.",
